@@ -1,0 +1,8 @@
+principle = float(input("enter principle amount(in Rs):"))
+rate = float(input('enter rate of interest(in %):'))
+time = int(input("enter time period iin years"))
+print("----------------------------------")
+print("Principle amount:", principle)
+print("Rate is:", rate)
+print("Time period:", time)
+print("SI is:", (principle*rate*time)/100)
