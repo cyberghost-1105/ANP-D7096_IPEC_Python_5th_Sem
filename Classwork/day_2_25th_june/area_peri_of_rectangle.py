@@ -18,3 +18,10 @@ print("-------------------------------------")
 print("Area of the rectangle: ", area, "cm²")
 print("Perimeter of the rectangle: ", perimeter, "cm")
 print("-------------------------------------")
+
+'''Output:
+Enter the length of the rectangle (in cm): 5
+Enter the width of the rectangle (in cm): 3
+Area of the rectangle:  15.0 cm²
+Perimeter of the rectangle:  16.0 cm
+-------------------------------------'''
