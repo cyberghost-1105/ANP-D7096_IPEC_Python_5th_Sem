@@ -27,10 +27,10 @@ Grade F
 
 #Coding starts here
 #inputs the data from the user
-marks = float(input("Enter Marks: "))
+marks = float(input("Enter marks between 0 and 100: "))
 #validating the marks obtained
 if marks < 0 or marks > 100:
-    exit("Invalid input. Please enter marks between 0 and 100.")
+    exit("Invalid input. ")
 
 print("----------------------------------------------------------")
 
