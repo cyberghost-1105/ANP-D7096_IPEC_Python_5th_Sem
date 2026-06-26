@@ -3,6 +3,7 @@ A shopping mall waives the parking fee if a customer has made purchases worth â‚
 Otherwise, the customer must pay a parking fee of â‚¹100. 
 Write a Python program to accept the purchase amount and display whether the parking fee is 
 waived or payable. 
+-----------------------------------------------------------
 Sample Input 1 
 Enter the purchase amount: 2500 
 Sample Output 1 
@@ -32,7 +33,7 @@ else:
 print("-----------------------------------------------------------")
 
 '''output:
-Enter the Purchase amount : 2500
+Enter the Purchasamount : 2500
 Mall Waives the parking fee 
 -----------------------------------------------------------
 Enter the Purchase amount : 1500
