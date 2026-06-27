@@ -38,7 +38,7 @@ elif existing_loan_amount < 0:
 
 if credit_score >= 750 and annual_income >= 800000 and existing_loan_amount <= 200000:
     print("Loan Status: Approved")
-    #loan conditions for manual reviews
+    #loan conditions for manual review
 elif (credit_score < 750 and annual_income >= 800000 and existing_loan_amount <= 200000) or \
      (credit_score >= 750 and annual_income < 800000 and existing_loan_amount <= 200000) or \
      (credit_score >= 750 and annual_income >= 800000 and existing_loan_amount > 200000):   
