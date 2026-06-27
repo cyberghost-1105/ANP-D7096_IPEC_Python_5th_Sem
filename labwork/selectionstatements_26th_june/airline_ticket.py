@@ -32,6 +32,11 @@ age = int(input("Enter Passenger age: "))
 business_class = input("Business Class(Y/N): ")
 window_seat = input("Window Seat (Y/N): ")
 weekend_travel = input("Weekend Travel(Y/N): ")
+
+#validaring input 
+if age < 0:
+    exit("Enter valid age")
+    
 #setting base fare
 base_fare = 5000 
 
