@@ -48,7 +48,9 @@ elif income <= 1000000:
     if gender.lower() == "female" and age >= 60:
         tax = (income - 500000) * 0.10
         print("Tax before rebate: ₹", tax)
-        print("Tax for Senior Citizens and Female taxpayers after rebate: ₹", (tax - (tax * 0.07)))
+        print("Senior Citizen Rebate:: ₹", (tax - (tax * 0.05)))
+        print("Women Rebate: ₹", (tax - (tax * 0.02)))
+        print("Final Tax Payable: ₹", (tax - (tax * 0.07)))
         #for female taxpayers
     elif gender.lower() == "female" :
         tax = (income - 500000) * 0.10
@@ -70,7 +72,9 @@ elif income <= 2000000:
     if gender.lower() == "female" and age >= 60:
         tax = (income - 500000) * 0.20
         print("Tax before rebate: ₹", tax)
-        print("Tax for Senior Citizens and Female taxpayers after rebate: ₹", (tax - (tax * 0.07)))
+        print("Senior Citizen Rebate:: ₹", (tax - (tax * 0.05)))
+        print("Women Rebate: ₹", (tax - (tax * 0.02)))
+        print("Final Tax Payable: ₹", (tax - (tax * 0.07)))
      #for female taxpayers
     elif gender.lower() == "female" :
         tax = (income - 500000) * 0.20
@@ -92,7 +96,9 @@ elif income > 2000000:
     if gender.lower() == "female" and age >= 60:
         tax = (income - 500000) * 0.30
         print("Tax before rebate: ₹", tax)
-        print("Tax for Senior Citizens and Female taxpayers after rebate: ₹", (tax - (tax * 0.07)))
+        print("Senior Citizen Rebate:: ₹", (tax - (tax * 0.05)))
+        print("Women Rebate: ₹", (tax - (tax * 0.02)))
+        print("Final Tax Payable: ₹", (tax - (tax * 0.07)))
         #for female taxpayers    
     elif gender.lower() == "female" :
         tax = (income - 500000) * 0.30  
@@ -117,5 +123,7 @@ Enter Annual Income: 1200000
 Enter Age: 65
 Enter Gender (Male/Female): F
 Tax before rebate: ₹ 70000.0
-Tax for Senior Citizens and Female taxpayers after rebate: ₹ 65100.0
+Senior Citizen Rebate:: ₹ 66500.0
+Women Rebate: ₹ 68600.0
+Final Tax Payable: ₹ 65100.0
 ______________________________________________________________'''
